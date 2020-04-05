@@ -1,6 +1,8 @@
 package Obiekty;
 
 public class Dog implements Animal{
+
+
     public void aportuj () {
         // pies aportuje
     }
@@ -8,5 +10,10 @@ public class Dog implements Animal{
     @Override
     public void makeSound() {
         System.out.println("Hau!");
+    }
+
+    @Override
+    public void move() {
+
     }
 }
