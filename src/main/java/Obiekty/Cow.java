@@ -1,8 +1,9 @@
 package Obiekty;
 
-public class Cow implements Animal{
-    public void dajMleko (){
-        // daja mleko
+public class Cow implements Animal {
+
+    public void dajMleko() {
+        // krowy daja mleko
     }
 
     @Override
@@ -12,6 +13,7 @@ public class Cow implements Animal{
 
     @Override
     public void move() {
+        System.out.println("Chodze");
 
     }
 }
